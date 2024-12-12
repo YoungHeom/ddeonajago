@@ -28,23 +28,51 @@
         display: block;
     }
 
-    iframe {
+    /* iframe {
         width: 100%;
         height: 100vh;
-    }
-    embed {
+    } */
+
+    /* embed {
         width: 100vw;
         height: 100vh;
+    } */
+    .btn_box {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    button {
+        border: none;
+        width: 300px;
+        height: 180px;
+        font-weight: bold;
+        color: #2b3b40;
+        background-color: #d4eaf0;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: all .2s ease-in;
+    }
+    .btn_1:hover {
+        scale: 1.06;
+    }
+    .btn_2:hover {
+        scale: 1.06;
+    }
+    .btn_3:hover {
+        scale: 1.06;
     }
 </style>
 
 <body style="overflow-y: hidden;">
     <div class="wrap">
-        
+        <div class="btn_box">
+            <a href="img/소니코리아프로세스.pdf"><button class="btn_1">소니코리아 프로세스</button></a>
+            <a href="img/글입다프로세스.pdf"><button class="btn_2">글입다 프로세스</button></a>
+            <a href="img/떠나자고프로세스.pdf"><button class="btn_3">떠나자고 프로세스</button></a>
+        </div>
     </div>
-    <a href="img/소니코리아프로세스.pdf"><button>소니코리아프로세스</button></a>
-    <a href="img/글입다프로세스.pdf"><button>글입다프로세스</button></a>
-    <a href="img/떠나자고프로세스.pdf"><button>떠나자고프로세스</button></a>
 </body>
 
 </html>
